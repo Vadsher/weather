@@ -30,7 +30,7 @@ t = w.temperature('celsius') ['temp']
 
 print( Back.CYAN )
 print( "В місті " + place + " зараз " + w.detailed_status + ".")
-print( "Температура за бортом зараз приблизно становить " + str(w.temperature('celsius') ["temp"]) + "°С." )
+print( "Температура за бортом зараз приблизно становить " + str(t) + "°С." )
 
 if t < 10:
 	print("Щось сьогодні холодно, одягнись тепліше!")
